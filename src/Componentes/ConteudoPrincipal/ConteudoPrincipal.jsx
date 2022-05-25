@@ -2,7 +2,7 @@ import React from 'react'
 import Formulario from '../Formulario/Formulario.jsx'
 import SeusProdutos from './SeusProdutos.jsx'
 
-function Body() {
+function ConteudoPrincipal() {
   return (
     <body>
       <section>
@@ -25,4 +25,4 @@ function Body() {
   )
 }
 
-export default Body
+export default ConteudoPrincipal

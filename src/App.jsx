@@ -1,8 +1,8 @@
 import { useState } from 'react'
 
 import './App.css'
-import Header from './Componentes/Header/Header.jsx'
-import Body from './Componentes/Body/Body.jsx'
+import Cabecalho from './Componentes/Cabecalho/Cabecalho.jsx'
+import ConteudoPrincipal from './Componentes/ConteudoPrincipal/ConteudoPrincipal.jsx'
 import Rodape from './Componentes/Rodape/Rodape.jsx'
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
-      <Body />
+      <Cabecalho />
+      <ConteudoPrincipal/>
       <Rodape />
       
     </div>

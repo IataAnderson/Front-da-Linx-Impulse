@@ -1,7 +1,7 @@
 import React from 'react'
 import Botao from '../Botao/Botao'
 
-function Header() {
+function Cabecalho() {
   return (
     <header>
         <h2>Uma seleção de produtos</h2>
@@ -22,4 +22,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Cabecalho
